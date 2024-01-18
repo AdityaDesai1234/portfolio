@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 20px;
+}
+#nav-bar ul li a{
+	color: #fff;
+	font-weight: bold;
+	transition: .7s all ease;
+}
+#nav-bar ul li a:hover{
+	color:#330099;
+}
+
+/* Banner */
+#banner h3{
+	font-size:30px;
+	color: #333366;
+}
+#bgimg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	/* width: 800px; */
+}
+#banner h2{
+	font-size: 45px;
+	font-weight: bold;
+	color: #333366;
+}
+#banner p{
+	font-size:15px;
+	margin-top: 0;
+	margin-bottom:0;
+	color: #999999;
+}
+#banner button{
+	background-image:linear-gradient(to right,#330099,#3333cc); 
+	width: 200px;
+	border:none;
+	color: #ffffff;
+	border-radius:30px;
+	transition: 1s all ease;
+}
+#banner button:hover{
+	background-image:linear-gradient(to right,#3333cc,#330099);
+	border-radius:0px;
+}
+.midbtn{
+	background-color:#fff;
+	box-shadow: 0px 10px 22px 0px lightgray;
+	width: 60px;
+	height: 60px;
+	border-radius:100px;
+	position: absolute;
+	left:40%;
+	top:95%;
+}
+.midbtn a{
+	border:1px solid #9999ff;
+	border-radius: 14px;
+	height: 40px;
+}
+
+/* Biography */
+#Biography img{
+	height: 380px;
+}
+#Biography p{
+	color: #999999;
+}
+#Biography h2{
+	font-size: 45px;
+	font-weight: bold;
+	color: #333366;
+}
+#Biography button{
+	background-image:linear-gradient(to right,#330099,#3333cc); 
+	width: 150px;
+	border:none;
+	color: #ffffff;
+	border-radius:30px;
+	transition: 1s all ease;
+}
+#Biography button:hover{
+	background-image:linear-gradient(to right,#3333cc,#330099);
+	border-radius:0px;
+}
+/* services */
+#services .p-service{
+	color: #9999ff;
+	font-size:25px;
+	margin-bottom: 0;
+}
+#services h2{
+	font-weight: bold;
+	font-size: 45px;
+	color: #333366;
+}
+#services img{
+	height: 55px;
+}
+#services h5{
+	font-size:18px;
+	color: #424959;
+	text-align:center;
+}
+#services p{
+	font-size:14px;
+	color:#454851;
+}
+#services button{
+	background-image:linear-gradient(to right,#330099,#3333cc); 
+	width: 100px;
+	border:none;
+	color: #ffffff;
+	border-radius:30px;
+	font-size: 13px;
+	margin-left:50%;
+	transition: 1s all ease;
+}
+#services button:hover{
+	background-image:linear-gradient(to right,#3333cc,#330099);
+	border-radius:0px;
+}
+#services .card{
+	border: none;
+	box-shadow: 0px 13px 20px 6px #f0f6f6;
+	border-radius:30px;
+	transition: 1s all ease;
+}
+#services .card:hover{
+	transform: translateY(-25px);
+}
+
+/* pricing */
+#pricing{
+	background-color: #eceaff;
+}
+#pricing .card{
+	border: none;
+	box-shadow: 0px 16px 30px 1px #c6c5ca;
+	border-radius:30px;
+	padding:15px;
+	transition: 1s all ease;
+}
+#pricing .card:hover{
+	transform: translateY(-25px);
+}
+#pricing button{
+	background-image:linear-gradient(to right,#330099,#3333cc); 
+	width: 100px;
+	border:none;
+	color: #ffffff;
+	border-radius:30px;
+	font-size: 13px;
+	transition: 1s all ease;
+}
+#pricing button:hover{
+	background-image:linear-gradient(to right,#3333cc,#330099);
+	border-radius:0px;
+}
+#pricing .prise{
+	font-size: 25px;
+	margin:20px 0px 20px 0px;
+	font-weight: bold;
+	color: #1306dc;
+}
+#pricing p{
+	font-size:14px;
+	color:#969cac;
+}
+#pricing .p1{
+	font-size:17px;
+	color: #7f7ae0;
+}
+#pricing h2{
+	font-weight: bold;
+	color: #42495b;
+	font-size: 45px;
+}
+#pricing h5{
+	color: #42495c;
+}
+
+/* newsletter */
+#newsletter p{
+	font-size:17px;
+	color: #807adc;
+}
+#newsletter span{
+	font-weight: bold;
+	columns: #424959;
+}
+#newsletter input{
+	padding:5px;
+	border: none;
+	background-color: #f6f7fb;
+
+}
+#newsletter button{
+	background-image:linear-gradient(to right,#330099,#3333cc); 
+	width: 100px;
+	border:none;
+	color: #ffffff;
+	border-radius:30px;
+	font-size: 13px;
+	transition: 1s all ease;
+}
+#newsletter button:hover{
+	background-image:linear-gradient(to right,#3333cc,#330099);
+	border-radius:0px;
+}
+#newsletter input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ 	font-size: 13px;
+ 	padding-left:10px;
+ 	color: #bebfc1;
+}
+#newsletter h3{
+	color:#434a54;
+}
+/* footer */
+#footer{
+	background-image:url('../image/wave.svg');
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+#footer .bgimg{
+	width:100%;
+	height:100%;
+	z-index:-1; 
+	position: absolute;
+	top:-40px;
+}
+#footer img{
+	height: 50px;
+	padding-left: 20px;
+
+}
+#footer .touch{
+	font-size: 30px;
+	margin-top:10px;
+	font-weight: bold;
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li a{
+	text-decoration: none;
+	}
+
+
+
+
+/* for Banner */
+@media only screen and (max-width:320px)
+{
+	.navbar-brand img{
+		height: 50px;
+		padding-left: 20px;
+	}
+	#nav-bar ul li a{
+		color: #fff;
+		font-weight: bold;
+		transition: .7s all ease;
+	}
+	#nav-bar ul li a:hover{
+		color: #4940db;
+	}
+
+	#banner h3{
+		font-size:30px;
+		color: #fff;
+	}
+	#banner h2{
+		font-size: 45px;
+		font-weight: bold;
+		color: #fff;
+	}
+	#banner p{
+		font-size:15px;
+		margin-top: 0;
+		margin-bottom:0;
+		color: #fff;
+	}
+	#banner button{
+		background-image:linear-gradient(to right,#330099,#3333cc,#330099); 
+		width: 200px;
+		border:none;
+		color: #ffffff;
+		border-radius:30px;
+		transition: 1s all ease;
+	}
+	#banner button:hover{
+		background-image:linear-gradient(to right,#3333cc,#330099,,#3333cc);
+		border-radius:0px;
+	}
+}
+@media only screen and (max-width:1024px)
+{
+	#nav-bar ul li a{
+		color: #fff;
+		font-weight: bold;
+		transition: .7s all ease;
+	}
+	#nav-bar ul li a:hover{
+		color: #4940db;
+	}
+}

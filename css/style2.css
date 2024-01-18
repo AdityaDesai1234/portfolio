@@ -1,0 +1,21 @@
+ .hero_h1,.hero_p{
+	opacity: 0;
+} 
+.Aboutus_img,.Aboutus_h2,.Aboutus_h4,.Aboutus_p,.Aboutus_icon{
+	opacity: 0;
+}
+.education_h2,.education_a{
+	opacity: 0;
+}
+.skill_h2,.skill_card{
+	opacity: 0;
+}
+.passion_h2,.passion_btn1,.passion_btn2{
+	opacity: 0;
+}
+.project_h2,.project_img{
+	opacity: 0;
+}
+.contact_h2,.contact_i,.contact_form{
+	opacity: 0;
+}

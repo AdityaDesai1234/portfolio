@@ -1,0 +1,232 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.navbar-brand  img{
+	height: 50px;
+	width: 50px;
+}
+.nav1{
+	background: rgba(0, 0, 0, 0.3);	
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.collapse ul li a{
+	transition:1s all ease;
+}
+.collapse ul li a:hover{
+	color:#;
+	/* border-bottom:1px solid white; */
+	background-color:rgba(0, 0, 0, 0.4); 
+}
+ .carousel-item  img{
+	width: 100%;
+	height:100vh;
+}
+
+.carousel-inner .carousel-item .carousel-caption{
+	
+   bottom:100px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+	/* border-radius: 55px; */
+}
+.carousel-inner .carousel-item .carousel-caption button{
+	background-color:#b3b3b3;
+	color: #ffff;
+	font-size:14px;
+	border: 2px solid #fff;
+	border-radius:0px;
+	transition: 1s all ease;
+}
+.carousel-inner .carousel-item .carousel-caption button:hover{
+	background-color:#ffff;
+	color:#161515;
+}
+
+/* slider2 */
+#slider2{
+	background-color: #000000;
+	color: #ffff;
+}
+#slider2 a{
+	background-color: #ffff;
+	color: #000000;
+	font-size:13px;
+	border-radius:20px;
+	margin-left:80px;
+}
+
+/* History */
+#History a{
+	background-color:#ffff;
+	color:#161515;
+	font-size:14px;
+	border: 1px solid #000000;
+	border-radius:0px;
+	transition: 1s all ease;
+
+}
+#History a:hover{
+		background-color:#b3b3b3;
+		color:#ffff;
+
+}
+#History img{
+	height: 450px;
+	width: 300px;
+}
+#History p{
+	color: #666666;
+}
+
+/* video */
+#video{
+	/* height:400px;
+	width: 100%; */
+	background-color: #0000;
+
+}
+#video #myVideo {
+ 	width:100%; 
+  }
+
+/* Portfolio */
+
+#portfolio ul{
+	list-style-type: none;
+	text-decoration: none;
+	display: flex;
+	justify-content:center;	
+	align-items:center;
+}
+#portfolio p{
+	color:#666666;
+}
+#portfolio ul li a{
+	text-decoration: none;
+	border:1px solid #333333;
+	font-size:10px;
+	color:#000;
+	border-radius:0px;
+	transition:1s all ease;
+}
+#portfolio ul li a:hover{
+	background-color: #333333;
+	color:#fff;
+}
+#portfolio .portdiv{
+	height: 200px;
+	width: 200px;
+	background-color:#333333;
+	margin:20px;
+}
+#portfolio .port-btn{
+	text-decoration: none;
+	border:1px solid #333333;
+	font-size:14px;
+	color:#000;
+	border-radius:0px;
+	transition:1s all ease;
+	}
+#portfolio .port-btn:hover{
+	background-color: #333333;
+	color:#fff;	
+}
+
+/* Quote */
+#Quote{
+	background-color: #333333;
+}
+#Quote div{
+	background-color: #fff;
+	height:50px;
+	width:50px;
+	border-radius: 200px;
+}
+#Quote .name{
+	font-size:13px;
+}
+
+#meet_team{
+	background-color: #eff7fa;
+}
+#meet_team p{
+	color:#999999;
+}
+ #meet_team .topimg{
+	height: 250px;
+	width: 100%;
+	background-color: #cccccc;
+}
+#meet_team .middiv{
+	width: 100%;
+	height: 45px;
+	background-color:#333333;
+	color: #ffff;
+	padding: 5px 0px;
+}
+
+/* subscribe */
+#subscribe{
+	background-color:#333333;
+	color:#fff; 
+}
+#subscribe button{
+	text-decoration: none;
+	border:1px solid #333333;
+	font-size:13px;
+	color:#000000;
+	border-radius:0px;
+	background-color:#ffffff;
+	transition:all 1s ease;
+}
+#subscribe button:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+#subscribe input{
+	border-radius: 0px;
+	background-color:#333333;
+	border: 1px solid #fff;
+
+}
+
+/* contact */
+#contact p{
+	color:#999999;
+}
+#contact button{
+	text-decoration: none;
+	border:1px solid #333333;
+	font-size:13px;
+	color:#000000;
+	border-radius:0px;
+	background-color:#ffffff;
+	transition:all 1s ease;
+}
+#contact button:hover{
+	background-color:#000000;
+	color:#ffffff;
+}
+#contact i{
+	font-size:26px;
+}
+#contact input{
+	border-radius: 0px;
+}
+
+/* footer */
+#footer{
+	background-color:#000000;
+}
+#footer img{
+	height:50px;
+	width:50px;
+}
+#footer p{
+	font-size:10px;
+	margin-top:15px;
+}

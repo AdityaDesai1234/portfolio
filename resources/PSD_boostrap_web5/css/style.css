@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+#header{
+	width: 100%;
+	height: 100vh;
+	background-color: #19283f;
+	
+}
+
+
+.login{
+	border-radius:15px 15px;
+	padding: 6px 30px;
+}
+/* .login b{
+	color: #ff941b;
+} */
+.search{
+	margin: 12px 12px;
+}
+.rightborder{
+	background-color: #00c6bf;
+	width: 2px;
+	height: 25px;
+	
+}
+.header-text{
+	position:relative;
+	top: 25%;
+	
+}
+.header-text h1{
+	color: #f0f8fb;
+	font-size:55px;
+}
+.header-text p{
+	color:#f0f8fb;
+}
+.get-started{
+	border-radius:15px 15px;
+	padding: 6px 30px;
+	margin-top: 20px;
+}
+/* .get-started b{
+	color: #ff941b;
+} */
+
+/* Services */
+
+.service-img{
+	height: 45px;
+	width: 50px;
+}
+.sp1{
+	font-size: 14px;
+	color: #b9c7cd;
+	margin-bottom:6px;
+}
+.sh1{
+	color: #1a2940;
+}
+hr{
+	width: 100px;
+	background-color: #00c6bf;
+	margin-top:0px;
+}
+.back{
+	height: 120px;
+	width: 70px;
+	z-index:-1;
+}
+.front{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top:79px;
+	left: 46%;
+}
+.sh2{
+	font-size: 17px;
+	margin: 15px 0px;
+}
+.sp2{
+	font-size: .8rem;
+}
+
+/* Portfolio */
+
+#portfolio ul{
+	list-style-type: none;	
+}
+
+#portfolio ul li a{
+	text-decoration: none;
+}
+#portfolio .portdiv{
+	background-color: #e8dfdf;
+	height:205px;
+	width:245px;
+	margin:15px;
+}
+#portfolio .port-btn{
+	border-radius: 20px;
+	
+}
+
+/* About */
+
+/* #AboutUS .mac{
+	height:300px;
+	width: 460px;
+} */
+ #AboutUS .screen{
+	width: 72%;
+	position: absolute;
+	top: 10px;
+	left:14%;
+}
+#AboutUS .about-btn{
+	border-radius: 20px;
+}
+#AboutUS .abp1{
+	font-size: 13px;
+	color: #b9c7cd;
+	margin-bottom:6px;
+}
+
+/* About us */
+#meet_team{
+	background-color: #eff7fa;
+}
+#meet_team .topimg{
+	height: 200px;
+	width: 100%;
+}
+#meet_team .middiv{
+	width: 100%;
+	height: 35px;
+	background-color: #33d1cc;
+	color: #ffff;
+	padding: 5px 0px;
+}
+
+/* Meet Team one*/
+
+#meet_team .mt1{
+	font-size: 14px;
+	color:#b9c7cd;
+	padding:15px;
+}
+
+/* clients */
+
+#clients ul{
+	list-style-type: none;
+}
+
+
+/* Advertise */
+
+#Advertise{
+	background-color: #19283f;
+	color: #ffff;
+}
+
+#Advertise .adv1{
+	font-size: 14px;
+	color: #788995;
+}
+#Advertise .adv-btn{
+	border-radius: 20px;
+}
+
+/* Blog */
+
+#blog .blog{
+	height: 100px;
+	width: 100%;
+	background-color: #eff7fa;
+}
+#blog .card{
+	border-color: white;
+}
+#blog .blog-btn{
+	border-radius: 20px;
+}
+#blog h5{
+	color:#1a2940;
+}
+
+/* Footer */
+#footer{
+	background-color: #19283f;
+	padding: 10px 5px 10px 5px;
+}
+#footer .fp1{
+	font-size:14px;
+	color: #a8b9c0;
+}
+#footer .fp2{
+	font-size: 14px;
+	color:#a8b9c0; 
+}
+#footer .links{
+	text-decoration: none;
+	list-style-type: none;
+}
+#footer .links a{
+	color: #a8b9c0;
+	font-size: 14px;
+}
+#footer .links li{
+	margin-top: 10px;
+}
+#footer .foot-btn{
+	background-color: #ff3150;
+	border-radius: 20px;
+}
+#footer .facebook{
+	background-color: #347cd2;
+	border-radius: 15px;
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+}
+#footer .twitter{
+	background-color: #1ec4ff;
+	border-radius: 15px;
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+}
+#footer .google-plus-official{
+	background-color: #ff4032;
+	border-radius: 15px;
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+}
+#footer .dribbble{
+	background-color: #ff3298;
+	border-radius: 15px;
+	height: 30px;
+	width: 30px;
+	font-size: 18px;
+}

@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+/* Nav Bar */
+body{
+	background-color: #ffffff;
+	}
+.navbar{
+	padding: 10px 30px;
+}
+.navbar-brand{
+	font-size:25px;
+}
+.navbar-brand hr{
+	height:2px;
+}
+.navbar-nav{
+	margin-left: 10px;
+}
+.navbar-nav li{
+	margin-left:40px;
+}
+.nav-link{
+	font-weight:bold;
+}
+ .collapse .btn{
+	background-color:#ffffff;
+	color: red;
+	box-shadow:-3px 2px 10px 0.1px black;
+	margin-top: 5px;
+	padding: 10px 15px;
+} 
+ .collapse .btn img{
+	margin-left:10px;
+	width: 20px;
+}
+.backimg{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	height: 100%;
+	width: 50%;
+	left: 50%;
+}
+
+/*---------Hero------- */
+
+#hero{
+	padding-top:5%;
+	/* height: 100vh; */
+	}
+	.heroback{
+		position: absolute;
+		top:0;
+		z-index: -1;
+		height: 100vh;
+	}
+#hero h2{
+	font-weight: 600;
+	font-size: 70px;
+	margin-top: 105px;
+	color: #333399;
+}
+#hero p{
+	margin-top: 15px;
+	color: #333399;
+}
+.heroimg{
+	height: 311px;
+	margin-top:100px;
+}
+.herobtn1{
+	margin-top: 20px;
+	border-radius:16px;
+}
+.herobtn2{
+	margin-top: 20px;
+	border-radius:16px;	
+	color:#333399;
+}
+
+
+/*-----Services-----*/
+#service{
+	padding: 80px 0px;
+	
+}
+#service h2{
+	font-size:42px;
+	font-weight:500;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	color:#333399;
+}
+
+#service .srvcard img{
+	height: 55px;
+	width: 59px;
+}
+.card{
+	box-shadow:-12px 14px 22px 0.1px gray;
+	color:#333399;
+}
+
+#service .serbtn{
+	
+	border-radius: 16px;
+}
+
+/*------About Us-------*/
+
+#Aboutus{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+	color:#333399;
+}
+.aboutus{
+	margin-top: 30px;
+
+}
+.aboutimg1{
+	height: 311px;
+	width: 340px;
+	margin-top:20px;
+}
+.aboutus h2{
+	font-weight: 500;
+	font-size: 55px;
+	margin-bottom: 25px;
+	color:#333399;
+}
+.Aboutcol p{
+	margin-bottom:10px;
+	}
+.shape{
+	position: absolute;
+	top:120%;
+	z-index: -1;
+}
+.shape2{
+	position: absolute;
+	top: 180%;
+	z-index: -1;
+	height: 100%;
+	width: 20%;
+	left: 80%;
+}
+
+/*--------Portfolio-------*/
+#portfolio{
+	
+	padding-bottom: 50px;
+	
+	margin-top:40px;
+	}
+#portfolio h2{
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 40px;
+	margin-left: 10px;
+	color:#333399; 
+}	
+	
+.portdiv{
+	height: 281px;
+	width: 300px;
+	background-color:#cccccc;
+	margin:20px;
+}
+
+/*------Blog------*/
+#blog{
+	margin-top:50px;
+	padding-bottom: 50px;
+	
+}
+
+#blog h2{
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 40px;
+	margin-left: 25px;
+	color:#333399; 
+}
+ #blog .date{
+ 	font-size:13px;
+}
+.blogimg{
+	width: 30px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: 5px;
+	margin-bottom: 10px
+}
+
+/*----Contact US*/
+#contactus{
+	margin-top:20px;
+	padding-bottom: 50px;
+	}
+#contactus h2{
+	color:#333399; 
+}
+#contactus .sendmsg{
+	border-radius: 16px;
+	padding:5px 20px;
+}
+
+/* footer */
+
+#footer{
+	margin-top:20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #333399;
+	text-align: center;
+	color: white;
+}
+#footer ul{
+	text-decoration: none;
+}
+#footer ul li{
+	display: inline;
+	margin: 10px;
+}
+#footer .text-center{
+	font-size: 10px;
+	margin-top: 20px;
+}
